@@ -1,0 +1,41 @@
+.article_show_middle {
+  width: 100%;
+  background-color: #fafafa;
+  position: relative;
+  height: 300px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  overflow: hidden;
+}
+.article_show_middle:hover {
+  top: -2px;
+  box-shadow: 3px 3px 5px #a3a2a2;
+}
+.article_show_middle:hover img {
+  transform: scale(1.02);
+}
+.article_show_middle .middle_cover {
+  width: 100%;
+  height: 100%;
+}
+.article_show_middle .middle_cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article_show_middle .middle_describe {
+  width: 100%;
+  padding: 0 80px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.article_show_middle .middle_describe h3 {
+  font-size: 20px;
+}
+.article_show_middle .middle_describe p {
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */

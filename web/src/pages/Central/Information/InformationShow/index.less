@@ -1,0 +1,89 @@
+.information_show{
+  width: 100%;
+  .information_top{
+    height: 720px;
+    background: url("http://localhost:8888/static/images/group4.jpg") no-repeat center 70%;
+    background-size: 100%;
+    padding: 0 10%;
+    position: relative;
+    cursor: pointer;
+    .title{
+      position: absolute;
+      top: 30%;
+      h2,h4{
+        color: white;
+      }
+      h2{
+        font-size: 48px;
+        transition: all .3s ease-out 0s;
+      }
+    }
+    .bg_change{
+      position: absolute;
+      bottom: 165px;
+      .arrow_l,.arrow_r{
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        background: url("http://localhost:8888/static/images/arrow_r.png") no-repeat center left;
+        background-size: 100%;
+      }
+      .arrow_l{
+        transform: scaleX(-1);
+        margin-right: 50px;
+      }
+    }
+  }
+  .information_center{
+    width: 100%;
+    padding: 0 10%;
+    background-color: #eee;
+    .information_content{
+      border-top: 1px solid #ffffff;
+      position: relative;
+      width: 100%;
+      margin-top: -150px;
+      left: 50%;
+      transform: translate(-50%,0);
+      h2{
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 28px;
+        margin: 12px 0;
+        font-style: oblique;
+      }
+      .content_show{
+        display: flex;
+        .information_show_left{
+          display: flex;
+          flex-wrap: wrap;
+          width: 65%;
+          .middle_style_left,.middle_style_right{
+            width: calc(50% - 12px);
+          }
+          .middle_style_left{
+            margin-right: 24px;
+          }
+        }
+        li{
+          width: 100%;
+        }
+        .information_show_right{
+          width: calc(35% - 24px);
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+  .read_more{
+    margin-top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    color: red;
+    border-radius: 20px;
+  }
+}

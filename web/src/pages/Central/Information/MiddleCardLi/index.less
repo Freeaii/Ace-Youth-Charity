@@ -1,0 +1,41 @@
+.article_show_middle{
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  position: relative;
+  height: 300px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  transition: all .3s ease-out 0s;
+  overflow: hidden;
+  &:hover{
+    top: -2px;
+    box-shadow: 3px 3px 5px #a3a2a2;
+    img{
+      transform: scale(1.02);
+    }
+  }
+  .middle_cover{
+    width: 100%;
+    height: 100%;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .middle_describe{
+    width: 100%;
+    padding: 0 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 16px;
+    }
+  }
+
+}

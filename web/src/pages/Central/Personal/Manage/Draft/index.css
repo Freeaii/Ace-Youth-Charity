@@ -1,0 +1,61 @@
+.manage_article {
+  width: 100%;
+  height: 100%;
+}
+.manage_article .personal_article_show li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #e2dfdf;
+}
+.manage_article .personal_article_show li .about_article {
+  display: flex;
+}
+.manage_article .personal_article_show li .about_article img {
+  flex-shrink: 0;
+  height: 110px;
+  width: 160px;
+  object-fit: cover;
+}
+.manage_article .personal_article_show li .about_article .article_check {
+  margin-left: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.manage_article .personal_article_show li .about_article .article_check span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 16px;
+}
+.manage_article .personal_article_show li .about_article .article_check .check_style {
+  width: 50px;
+  border-radius: 10px;
+}
+.manage_article .personal_article_show li .article_control {
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.manage_article .personal_article_show li .article_control .article_data {
+  font-size: 14px;
+  color: #868686;
+}
+.manage_article .personal_article_show li .article_control .article_control_func button {
+  margin-left: 20px;
+  color: black;
+}
+.manage_article .personal_article_show li .article_control .article_control_func button:hover {
+  color: #9e9898;
+}
+.manage_article .pagination {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,99 @@
+.homepage {
+  width: 100%;
+}
+.homepage .home_home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .home_home .myVideo {
+  height: 100vh;
+  width: 100vw;
+}
+.homepage .home_home video {
+  object-fit: cover;
+}
+.homepage .home_home .home_title {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: absolute;
+}
+.homepage .home_home .home_title span {
+  font-size: 24px;
+}
+.homepage .home_home .home_title .to_project {
+  margin-top: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 40%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
+}
+.homepage .home_home .home_title .to_project:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.homepage .home_content {
+  width: 100%;
+  padding: 0 1%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.homepage .home_content .home_report {
+  margin-top: 150px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+}
+.homepage .home_content .home_report .plate_title {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.homepage .home_content .home_report ul {
+  display: flex;
+  flex-flow: column;
+  font-size: 16px;
+}
+.homepage .home_content .home_report ul li {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: black;
+}
+.homepage .home_content .home_report ul li .about_report {
+  display: flex;
+}
+.homepage .home_content .home_report ul li .about_report .author {
+  margin-right: 50px;
+}
+.homepage .home_content .home_report ul li:hover {
+  color: red;
+}
+.homepage .home_content .home_report .read_more {
+  display: flex;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+.homepage .home_content .home_report .read_more svg {
+  margin-left: 10px;
+  height: 22px;
+  width: 40px;
+  fill: red;
+}
+/*# sourceMappingURL=index.css.map */

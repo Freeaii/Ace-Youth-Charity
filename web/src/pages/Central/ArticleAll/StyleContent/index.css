@@ -1,0 +1,55 @@
+.project_underway {
+  width: 100%;
+}
+.project_underway .underway_article {
+  min-height: 600px;
+}
+.project_underway .underway_article li {
+  height: 180px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  color: black;
+}
+.project_underway .underway_article li:hover {
+  box-shadow: 5px 5px 10px #a3a2a2;
+  transform: scale(1.01);
+}
+.project_underway .underway_article li .article_pic {
+  height: 100%;
+  width: 180px;
+}
+.project_underway .underway_article li .article_pic img {
+  height: 100%;
+  width: 180px;
+  object-fit: cover;
+}
+.project_underway .underway_article li .article_describe {
+  margin-left: 40px;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: column;
+}
+.project_underway .underway_article li .article_describe:hover span {
+  color: red;
+}
+.project_underway .underway_article li .article_describe span {
+  font-size: 20px;
+}
+.project_underway .underway_article li .article_describe p {
+  margin-top: 20px;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.project_underway .pagination {
+  margin-top: 50px;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

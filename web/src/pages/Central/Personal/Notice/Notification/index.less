@@ -1,0 +1,39 @@
+.notice{
+  width: 100%;
+  min-height: 800px;
+  position: relative;
+  .no_notice{
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .pic{
+      flex-shrink: 0;
+      width: 180px;
+      height: 180px;
+      border-radius: 90px;
+      background-color: #f1f2f5;
+      position: relative;
+      svg{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100px;
+        height: 100px;
+        fill:#ffffff;
+      }
+    }
+    h2{
+      margin-top: 12px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #999999;
+    }
+  }
+}

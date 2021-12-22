@@ -1,0 +1,100 @@
+.homepage{
+  width: 100%;
+  .home_home{
+    height: 100vh;
+    width: 100%;
+    //background: linear-gradient(to bottom, #5277a5, #5893c6,#ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .myVideo{
+      height: 100vh;
+      width: 100vw;
+    ;
+    }
+    video{
+      object-fit: cover;
+    }
+    .home_title{
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      position: absolute;
+      span{
+        font-size: 24px;
+      }
+        .to_project{
+          margin-top: 20px;
+          font-size: 20px;
+          border: 1px solid black;
+          width: 40%;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          border-radius: 25px;
+          color: black;
+          &:hover{
+            background: rgba(0,0,0,.1);
+          }
+      }
+    }
+  }
+  .home_content{
+    width: 100%;
+    padding:0 1%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    .home_report{
+      margin-top: 150px;
+      width: 80%;
+      text-align: center;
+      position: relative;
+        .plate_title{
+          display: block;
+          font-size: 36px;
+          margin-bottom: 50px;
+          font-weight: 500;
+        }
+        ul{
+          display: flex;
+          flex-flow: column;
+          font-size: 16px;
+          li{
+            width: 100%;
+            height: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+            color: black;
+            .about_report{
+              display: flex;
+              .author{
+                margin-right: 50px;
+              }
+            }
+            &:hover{
+              color: red;
+            }
+          }
+        }
+      .read_more{
+        display: flex;
+        position: absolute;
+        right: 0;
+        font-size: 18px;
+        color: red;
+        cursor: pointer;
+        svg{
+          margin-left: 10px;
+          height: 22px;
+          width: 40px;
+          fill: red;
+        }
+      }
+    }
+  }
+}

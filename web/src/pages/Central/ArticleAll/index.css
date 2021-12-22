@@ -1,0 +1,39 @@
+.projectShow_page {
+  width: 100%;
+}
+.projectShow_page .project_publicity {
+  width: 100%;
+  position: relative;
+}
+.projectShow_page .project_publicity img {
+  width: 100%;
+}
+.projectShow_page .project_publicity .project_title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+}
+.projectShow_page .project_show .choose_project_style {
+  padding: 0 10%;
+  height: 70px;
+  width: 100%;
+  display: flex;
+}
+.projectShow_page .project_show .choose_project_style .li {
+  border-bottom: 3px solid red;
+}
+.projectShow_page .project_show .choose_project_style li {
+  display: block;
+  color: black;
+  height: 70px;
+  line-height: 70px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+.projectShow_page .project_show .project_style_show {
+  padding: 50px 10% 50px 10%;
+  background-color: #f1f2f5;
+}
+/*# sourceMappingURL=index.css.map */

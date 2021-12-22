@@ -1,0 +1,106 @@
+.footer{
+  margin-top: 150px;
+  width: 100%;
+  padding: 0 10%;
+  background-color: #f1f2f5;
+  display: flex;
+  flex-flow: column;
+  .follow_subscribe{
+    width: 100%;
+    padding: 60px 0;
+    border-bottom: 1px solid #e3e2e2;
+    .subscribe{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      .describe{
+        span{
+          font-weight: 300;
+          font-size: 16px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 40px;
+        }
+      }
+      .mailbox{
+        position: relative;
+        margin-top: 16px;
+        .remind{
+          position: absolute;
+          font-size: 14px;
+          color: red;
+          border-bottom: -5px;
+        }
+        input{
+          font-size: 17px;
+          border: none;
+          height: 30px;
+          width: 250px;
+          background-color: #f1f2f5;
+          border-bottom: 1px solid #5c5858;
+        }
+        button{
+          position: absolute;
+          right: 0;
+          bottom: 4px;
+          height: 26px;
+          svg{
+            height: 100%;
+            fill: #5c5858;
+            &:hover{
+              fill: red;
+            }
+          }
+        }
+      }
+      .follow_us{
+        span{
+          font-weight: 300;
+          font-size: 16px;
+        }
+        ul{
+          margin-top: 10px;
+          display: flex;
+          li{
+            margin-right: 20px;
+            svg{
+              height: 36px;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .relevant_information{
+    width: 100%;
+    padding: 60px 0 30px 0;
+    border-bottom: 1px solid #e3e2e2;
+    display: flex;
+    justify-content: space-between;
+    span{
+      font-size: 16px;
+    }
+    ul{
+      margin-top: 20px;
+      li{
+        margin-top: 5px;
+        font-weight: 300;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+  .declaration{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    p{
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0 2px;
+    }
+  }
+}

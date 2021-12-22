@@ -1,0 +1,103 @@
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 0 10%;
+  background-color: #f1f2f5;
+  display: flex;
+  flex-flow: column;
+}
+.footer .follow_subscribe {
+  width: 100%;
+  padding: 60px 0;
+  border-bottom: 1px solid #e3e2e2;
+}
+.footer .follow_subscribe .subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer .follow_subscribe .subscribe .describe span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.footer .follow_subscribe .subscribe .describe p {
+  font-size: 16px;
+  line-height: 40px;
+}
+.footer .follow_subscribe .subscribe .mailbox {
+  position: relative;
+  margin-top: 16px;
+}
+.footer .follow_subscribe .subscribe .mailbox .remind {
+  position: absolute;
+  font-size: 14px;
+  color: red;
+  border-bottom: -5px;
+}
+.footer .follow_subscribe .subscribe .mailbox input {
+  font-size: 17px;
+  border: none;
+  height: 30px;
+  width: 250px;
+  background-color: #f1f2f5;
+  border-bottom: 1px solid #5c5858;
+}
+.footer .follow_subscribe .subscribe .mailbox button {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  height: 26px;
+}
+.footer .follow_subscribe .subscribe .mailbox button svg {
+  height: 100%;
+  fill: #5c5858;
+}
+.footer .follow_subscribe .subscribe .mailbox button svg:hover {
+  fill: red;
+}
+.footer .follow_subscribe .subscribe .follow_us span {
+  font-weight: 300;
+  font-size: 16px;
+}
+.footer .follow_subscribe .subscribe .follow_us ul {
+  margin-top: 10px;
+  display: flex;
+}
+.footer .follow_subscribe .subscribe .follow_us ul li {
+  margin-right: 20px;
+}
+.footer .follow_subscribe .subscribe .follow_us ul li svg {
+  height: 36px;
+  cursor: pointer;
+}
+.footer .relevant_information {
+  width: 100%;
+  padding: 60px 0 30px 0;
+  border-bottom: 1px solid #e3e2e2;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .relevant_information span {
+  font-size: 16px;
+}
+.footer .relevant_information ul {
+  margin-top: 20px;
+}
+.footer .relevant_information ul li {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer .declaration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer .declaration p {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 2px;
+}
+/*# sourceMappingURL=index.css.map */

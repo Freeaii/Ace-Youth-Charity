@@ -1,0 +1,70 @@
+.admin_account {
+  width: 100%;
+  height: 100%;
+}
+.admin_account .account_menu {
+  margin-top: 30px;
+  display: flex;
+  font-size: 16px;
+  color: black;
+  border-bottom: 1px solid #e2dfdf;
+}
+.admin_account .account_menu .id {
+  width: 120px;
+}
+.admin_account .account_menu .name {
+  width: 240px;
+}
+.admin_account .admin_account_show {
+  position: relative;
+}
+.admin_account .admin_account_show li {
+  border-bottom: 1px solid #e2dfdf;
+}
+.admin_account .admin_account_show li .account {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+}
+.admin_account .admin_account_show li .account .about_account {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.admin_account .admin_account_show li .account .about_account .account_name {
+  width: 240px;
+}
+.admin_account .admin_account_show li .account .about_account .account_id {
+  width: 120px;
+}
+.admin_account .admin_account_show li .account .control {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+.admin_account .admin_account_show li .account .control button {
+  height: 24px;
+  margin-left: 50px;
+  color: black;
+}
+.admin_account .admin_account_show li .account .control button:hover {
+  color: red;
+}
+.admin_account .admin_account_show li .pic_show {
+  display: flex;
+  margin-bottom: 12px;
+}
+.admin_account .admin_account_show li .pic_show img {
+  margin-right: 12px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.admin_account .pagination {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*# sourceMappingURL=index.css.map */

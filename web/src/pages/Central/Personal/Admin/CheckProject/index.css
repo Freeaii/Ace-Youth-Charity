@@ -1,0 +1,71 @@
+.admin_project {
+  width: 100%;
+  height: 100%;
+}
+.admin_project .personal_article_show li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #e2dfdf;
+}
+.admin_project .personal_article_show li .about_article {
+  display: flex;
+}
+.admin_project .personal_article_show li .about_article img {
+  flex-shrink: 0;
+  height: 110px;
+  width: 160px;
+  object-fit: cover;
+}
+.admin_project .personal_article_show li .about_article .article_check {
+  margin-left: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.admin_project .personal_article_show li .about_article .article_check span,
+.admin_project .personal_article_show li .about_article .article_check p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.admin_project .personal_article_show li .about_article .article_check span {
+  font-size: 16px;
+}
+.admin_project .personal_article_show li .about_article .article_check p {
+  font-size: 14px;
+  margin: 12px 0;
+  -webkit-line-clamp: 2;
+}
+.admin_project .personal_article_show li .about_article .article_check .check_style {
+  width: 50px;
+  border: 1px solid #e2dfdf;
+  border-radius: 10px;
+}
+.admin_project .personal_article_show li .project_control {
+  margin-left: 100px;
+  min-width: 200px;
+  height: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.admin_project .personal_article_show li .project_control .project_data {
+  font-size: 14px;
+  color: #868686;
+}
+.admin_project .personal_article_show li .project_control .project_control_func button {
+  margin-left: 20px;
+  color: black;
+}
+.admin_project .personal_article_show li .project_control .project_control_func button:hover {
+  color: #9e9898;
+}
+.admin_project .pagination {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

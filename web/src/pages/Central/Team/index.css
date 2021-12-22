@@ -1,0 +1,144 @@
+.team {
+  width: 100%;
+  background-color: #ffffff;
+}
+.team .team_head {
+  height: 350px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #f1f2f5;
+}
+.team .team_head .team_name {
+  width: 100%;
+}
+.team .team_head .team_name span {
+  font-size: 50px;
+  font-weight: 600;
+}
+.team .team_head .team_words {
+  margin-top: 32px;
+  width: 100%;
+}
+.team .team_head .team_words p {
+  font-size: 24px;
+}
+.team .team_introduce {
+  padding: 0 10%;
+  width: 100%;
+}
+.team .team_introduce p {
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 32px;
+  text-indent: 2em;
+}
+.team .team_introduce .team_community {
+  width: 100%;
+}
+.team .team_introduce .team_community .community_title {
+  margin: 56px 0 28px 0;
+}
+.team .team_introduce .team_community .community_title h2 {
+  font-size: 28px;
+  border-bottom: 3px solid #f1f2f5;
+  padding-bottom: 8px;
+}
+.team .team_introduce .team_community .community_describe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.team .team_introduce .team_community .community_describe ul {
+  padding-left: 28px;
+}
+.team .team_introduce .team_community .community_describe ul li {
+  margin: 10px 0;
+  line-height: 32px;
+  font-size: 16px;
+  list-style: disc;
+  color: #4f88b4;
+}
+.team .team_introduce .team_core {
+  width: 100%;
+}
+.team .team_introduce .team_core .team_core_title {
+  margin: 56px 0 28px 0;
+}
+.team .team_introduce .team_core .team_core_title h2 {
+  font-size: 28px;
+  border-bottom: 3px solid #f1f2f5;
+  padding-bottom: 8px;
+}
+.team .team_introduce .team_core .core_describe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.team .team_introduce .team_core .core_describe ul {
+  padding-left: 28px;
+}
+.team .team_introduce .team_core .core_describe ul li {
+  margin: 10px 0;
+  line-height: 32px;
+  font-size: 16px;
+  list-style: disc;
+}
+.team .team_introduce .team_core .core_describe ul li span {
+  color: #4f88b4;
+}
+.team .team_members {
+  width: 100%;
+  padding: 0 10%;
+}
+.team .team_members .members_title {
+  margin: 56px 0 28px 0;
+  width: 100%;
+}
+.team .team_members .members_title h2 {
+  font-size: 28px;
+  border-bottom: 3px solid #f1f2f5;
+  padding-bottom: 8px;
+}
+.team .team_members .members_show {
+  width: 100%;
+  height: 400px;
+}
+.team .team_members .members_show h4 {
+  font-size: 18px;
+}
+.team .team_members .members_show ul {
+  display: flex;
+  margin-top: 20px;
+}
+.team .team_members .members_show ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-right: 15px;
+  padding: 8px 0;
+  font-size: 16px;
+}
+.team .team_members .members_show ul li img {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.team .team_members .members_show p {
+  font-size: 12px;
+}
+.team .team_members .members_show .other_contributors {
+  margin-top: 30px;
+}
+.team .team_members .members_show .core_members {
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=index.css.map */

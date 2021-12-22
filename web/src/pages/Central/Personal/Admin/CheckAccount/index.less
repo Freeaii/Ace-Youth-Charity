@@ -1,0 +1,69 @@
+.admin_account{
+  width: 100%;
+  height: 100%;
+  .account_menu{
+    margin-top: 30px;
+    display: flex;
+    font-size: 16px;
+    color: black;
+    border-bottom: 1px solid #e2dfdf;
+    .id{
+      width: 120px;
+    }
+    .name{
+      width: 240px;
+    }
+  }
+  .admin_account_show{
+    position: relative;
+      li{
+        border-bottom: 1px solid #e2dfdf;
+        .account{
+          display: flex;
+          justify-content: space-between;
+          height: 80px;
+          width: 100%;
+          .about_account{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .account_name{
+              width: 240px;
+            }
+            .account_id{
+              width: 120px;
+            }
+          }
+          .control{
+            display: flex;
+            align-items: center;
+            padding-right: 24px;
+            button{
+              height: 24px;
+              margin-left: 50px;
+              color: black;
+              &:hover{
+                color: red;
+              }
+            }
+          }
+        }
+        .pic_show{
+          display: flex;
+          margin-bottom: 12px;
+          img{
+            margin-right: 12px;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+          }
+        }
+      }
+  }
+  .pagination{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}

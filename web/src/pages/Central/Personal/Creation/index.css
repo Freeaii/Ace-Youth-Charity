@@ -1,0 +1,133 @@
+#personalCreation {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+#personalCreation .editor {
+  background-color: white;
+  padding-bottom: 100px;
+}
+#personalCreation .editor .content {
+  width: 100%;
+  min-height: 600px;
+  max-width: 1572px;
+  padding: 20px 3%;
+}
+#personalCreation .about_article_editor {
+  background-color: white;
+  border-top: 1px solid #e3dfdf;
+  width: 100%;
+  padding: 0 3%;
+  max-width: 1572px;
+  display: flex;
+  flex-flow: column;
+}
+#personalCreation .about_article_editor .title_style {
+  position: relative;
+  font-size: 16px;
+  margin-right: 50px;
+}
+#personalCreation .about_article_editor .title {
+  margin: 40px 0;
+  display: flex;
+}
+#personalCreation .about_article_editor .title input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #dcdbdb;
+}
+#personalCreation .about_article_editor .introduce {
+  margin-top: 0!important;
+}
+#personalCreation .about_article_editor .cover {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 50px;
+}
+#personalCreation .about_article_editor .cover .image_show {
+  margin: 20px 0 2px 110px;
+  width: 200px;
+  height: 160px;
+  position: relative;
+  cursor: pointer;
+  border: 1px dashed #cecaca;
+}
+#personalCreation .about_article_editor .cover .image_show:hover {
+  border: 1px dashed #4f88b4;
+}
+#personalCreation .about_article_editor .cover .image_show svg {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#personalCreation .about_article_editor .cover .image_show img {
+  width: 100%;
+  height: 100%;
+}
+#personalCreation .about_article_editor .cover p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 110px;
+}
+#personalCreation .about_article_editor .article_style,
+#personalCreation .about_article_editor .project_style,
+#personalCreation .about_article_editor .contact_email {
+  padding-bottom: 50px;
+}
+#personalCreation .about_article_editor .contact_email {
+  display: flex;
+  position: relative;
+}
+#personalCreation .about_article_editor .contact_email p {
+  font-size: 12px;
+  position: absolute;
+  left: 118px;
+  bottom: 15px;
+  color: red;
+}
+#personalCreation .about_article_editor .contact_email input {
+  flex: 1;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #dcdbdb;
+}
+#personalCreation .button_menu {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1572px;
+  padding: 10px 2%;
+  background-color: white;
+  display: flex;
+  flex-flow: row-reverse;
+  position: relative;
+}
+#personalCreation .button_menu button {
+  margin: 20px 20px;
+  padding: 10px 30px;
+  border: 1px solid #dcd3d3;
+  border-radius: 10px;
+  color: black;
+}
+#personalCreation .button_menu .publish {
+  background-color: #FF5E5E;
+}
+#personalCreation .button_menu .remind {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+}
+#personalCreation .button_menu .remind svg {
+  width: 20px;
+}
+#personalCreation .button_menu .remind p {
+  margin-left: 10px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */

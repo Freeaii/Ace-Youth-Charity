@@ -1,0 +1,148 @@
+.header{
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    .header_fill_before{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      background-color: #ffffff;
+      transition: all .3s ease-out 0s;
+      transform: translate3d(0, -100%, 0);
+      z-index: -1;
+    }
+    .header_fill_after{
+      position: absolute;
+      width: 100%;
+      height: 100px;
+      background-color: #ffffff;
+      transition: all .3s ease-out 0s;
+      transform: translate3d(0, 0, 0);
+      z-index: -1;
+    }
+    .nav_logo{
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      img{
+        height: 60px;
+      }
+      .logo_describe{
+        margin-left: 10px;
+        display: flex;
+        flex-flow: column;
+        color: black;
+        font-size: 16px;
+      }
+    }
+    .nav_button{
+      display: flex;
+      padding-right: 20px;
+      .nav_main_btn{
+        .nav_home{
+          border:1px solid black;
+        }
+        button{
+          height: 50px;
+          width: 100px;
+          padding: 0 10px;
+          margin-left: 10px;
+          border-radius: 25px;
+          font-size: 16px;
+          color: black;
+          &:hover{
+            background-color: rgba(0,0,0,.1);
+          }
+        }
+      }
+      .nav_menu{
+        display: none;
+      }
+      .user_login{
+        display: flex;
+        align-items: center;
+        .join_us{
+          height: 50px;
+          width: 100px;
+          padding: 0 10px;
+          margin-left: 10px;
+          border-radius: 25px;
+          font-size: 16px;
+          color: black;
+          &:hover{
+            background-color: rgba(0,0,0,.1);
+          }
+        }
+        .user_head{
+          padding: 0 10px;
+          margin-left: 10px;
+          img{
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+          }
+          .user_name{
+            margin-left: 15px;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .og_name{
+              font-size: 16px;
+            }
+            .more_function {
+              position: relative;
+              display: flex;
+              flex-flow: column;
+              align-items: center;
+              h5{
+                font-size: 14px;
+              }
+              &:hover{
+                .choose_menu{
+                  display: flex;
+                }
+              }
+              h5{
+                font-weight: 500;
+                display: flex;
+                svg{
+                  margin-left: 5px;
+                  width: 15px;
+                  display: table-cell;
+                  vertical-align: center;
+                }
+              }
+              .choose_menu{
+                width: 80px;
+                position: absolute;
+                display: none;
+                flex-flow: column;
+                align-items: center;
+                top: 20px;
+                background-color: white;
+                border-radius: 10px;
+                button{
+                  margin: 10px 0;
+                  color: black;
+                  &:hover{
+                    color: red;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+}

@@ -1,0 +1,56 @@
+.project_underway{
+  width: 100%;
+  .underway_article{
+    min-height: 600px;
+    li{
+      height: 180px;
+      width: 100%;
+      background-color: #fff;
+      margin-top: 20px;
+      display: flex;
+      padding: 20px;
+      cursor: pointer;
+      color: black;
+      &:hover{
+        box-shadow: 5px 5px 10px #a3a2a2;
+        transform: scale(1.01);
+      }
+      .article_pic{
+        height: 100%;
+        width: 180px;
+        img{
+          height: 100%;
+          width: 180px;
+          object-fit: cover;
+        }
+      }
+      .article_describe{
+        margin-left: 40px;
+        padding: 10px 0;
+        display: flex;
+        flex-flow: column;
+        &:hover{
+          span{
+            color: red;
+          }
+        }
+        span{
+          font-size: 20px;
+        }
+        p{
+          margin-top: 20px;
+          font-size: 16px;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          text-overflow: ellipsis;
+          -webkit-line-clamp:2;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+  .pagination{
+    margin-top: 50px;
+    text-align: center;
+  }
+}

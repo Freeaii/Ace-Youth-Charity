@@ -1,0 +1,14 @@
+.article_show_video {
+  width: 100%;
+  background-color: #fafafa;
+}
+.article_show_video .video_cover {
+  width: 100%;
+  height: 300px;
+}
+.article_show_video .video_cover video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,44 @@
+.personal_page {
+  width: 100%;
+  padding-top: 100px;
+}
+.personal_page .personal_content {
+  width: 100%;
+  padding: 20px 3% 50px 0;
+  background-color: #f1f2f5;
+  display: flex;
+}
+.personal_page .personal_content .personal_menu {
+  width: 200px;
+  padding: 0 20px 0 30px;
+  height: 100%;
+}
+.personal_page .personal_content .personal_menu ul li {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #4e4e4e;
+}
+.personal_page .personal_content .personal_menu ul li svg {
+  height: 24px;
+  width: 24px;
+  fill: #4e4e4e;
+}
+.personal_page .personal_content .personal_menu ul li span {
+  font-size: 18px;
+  margin-left: 15px;
+}
+.personal_page .personal_content .personal_menu ul li:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+  color: red;
+}
+.personal_page .personal_content .personal_menu ul li:hover svg {
+  fill: red;
+}
+.personal_page .personal_content .content_show {
+  flex: 1;
+}
+/*# sourceMappingURL=index.css.map */

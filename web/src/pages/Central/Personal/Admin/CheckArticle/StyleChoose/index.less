@@ -1,0 +1,60 @@
+.style{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  .choose{
+    display: flex;
+    align-items: center;
+    span{
+      color: #999999;
+    }
+    ul{
+      display: flex;
+      align-items: center;
+      margin: 0;
+      li{
+        margin-left: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+  .search{
+    position: relative;
+    &:hover{
+      input{
+        border: 1px solid black;
+        width: 250px;
+      }
+      svg{
+        fill:black;
+      }
+    }
+    &::before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      right: 40px;
+      height: 19px;
+      width: 2px;
+      background-color: #d8d9da;
+    }
+    input{
+      width: 150px;
+      height: 32px;
+      border: 1px solid #cecfd0;
+      padding: 0 40px 0 10px ;
+      border-radius: 5px;
+      transition: all .3s ease-out 0s;
+    }
+    svg{
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translate(0,-50%);
+      width: 20px;
+      height: 20px;
+      fill: #d8d9da;
+    }
+  }
+}

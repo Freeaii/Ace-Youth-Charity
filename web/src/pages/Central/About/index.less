@@ -1,0 +1,80 @@
+.about_page{
+  width: 100%;
+  .about_pic{
+    width: 100%;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    span{
+      position: absolute;
+      left: 50%;
+      bottom: 50%;
+      transform: translate(-50%,50%);
+      font-size: 48px;
+      color: white;
+    }
+  }
+  .about_what,.about_belief{
+    padding: 80px 20% 60px 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-size: 36px;
+    }
+    p{
+      margin-top: 50px;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  .about_belief{
+    background-color: #f1f2f5;
+  }
+  .about_dream{
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    li{
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      h3{
+        margin: 10px 0;
+      }
+    }
+  }
+  .about_contact{
+    padding: 80px 20% 60px 20%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    .contact_title{
+      font-size: 36px;
+      margin-bottom: 50px;
+    }
+    .contact_describe{
+      font-size: 16px;
+    }
+    .contact_remind{
+      margin-top: 30px;
+      width: 100%;
+      span{
+        display: block;
+        margin-bottom: 10px;
+      }
+      ul{
+        li{
+          margin: 5px 0 5px 18px;
+          list-style: circle;
+          color: #4f88b4;
+        }
+      }
+    }
+  }
+}

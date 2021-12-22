@@ -1,0 +1,93 @@
+.information_show {
+  width: 100%;
+}
+.information_show .information_top {
+  height: 720px;
+  background: url("http://localhost:8888/static/images/group4.jpg") no-repeat center 70%;
+  background-size: 100%;
+  padding: 0 10%;
+  position: relative;
+  cursor: pointer;
+}
+.information_show .information_top .title {
+  position: absolute;
+  top: 30%;
+}
+.information_show .information_top .title h2,
+.information_show .information_top .title h4 {
+  color: white;
+}
+.information_show .information_top .title h2 {
+  font-size: 48px;
+  transition: all 0.3s ease-out 0s;
+}
+.information_show .information_top .bg_change {
+  position: absolute;
+  bottom: 165px;
+}
+.information_show .information_top .bg_change .arrow_l,
+.information_show .information_top .bg_change .arrow_r {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  background: url("http://localhost:8888/static/images/arrow_r.png") no-repeat center left;
+  background-size: 100%;
+}
+.information_show .information_top .bg_change .arrow_l {
+  transform: scaleX(-1);
+  margin-right: 50px;
+}
+.information_show .information_center {
+  width: 100%;
+  padding: 0 10%;
+  background-color: #eee;
+}
+.information_show .information_center .information_content {
+  border-top: 1px solid #ffffff;
+  position: relative;
+  width: 100%;
+  margin-top: -150px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.information_show .information_center .information_content h2 {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 28px;
+  margin: 12px 0;
+  font-style: oblique;
+}
+.information_show .information_center .information_content .content_show {
+  display: flex;
+}
+.information_show .information_center .information_content .content_show .information_show_left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+}
+.information_show .information_center .information_content .content_show .information_show_left .middle_style_left,
+.information_show .information_center .information_content .content_show .information_show_left .middle_style_right {
+  width: calc(50% - 12px);
+}
+.information_show .information_center .information_content .content_show .information_show_left .middle_style_left {
+  margin-right: 24px;
+}
+.information_show .information_center .information_content .content_show li {
+  width: 100%;
+}
+.information_show .information_center .information_content .content_show .information_show_right {
+  width: calc(35% - 24px);
+  margin-left: 24px;
+}
+.information_show .read_more {
+  margin-top: 40px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  color: red;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=index.css.map */
