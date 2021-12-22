@@ -6,6 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -16,7 +25,193 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a37f4c49-5f7f-47ba-950e-c42ce8f14ec0" name="Default Changelist" comment="基本功能v3.0" />
+    <list default="true" id="a37f4c49-5f7f-47ba-950e-c42ce8f14ec0" name="Default Changelist" comment="基本功能v3.0">
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/App.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Content/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Content/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Content/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Content/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Footer/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Footer/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Footer/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Footer/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Header/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Header/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/Header/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/containers/Header_Container/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/containers/HomePage_Container/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/containers/Login_Container/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/containers/Personal_Container/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/dataDetection/login_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/dataDetection/token_check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/about/shiming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/about/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/about/yuanjing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/about_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/images/project_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/About/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/About/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/About/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/About/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Environment/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Knowledge/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Other/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Public/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Recommend/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/Society/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/StyleContent/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/StyleContent/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/StyleContent/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/StyleContent/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/ArticleAll/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article_Project_Show/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article_Project_Show/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article_Project_Show/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Article_Project_Show/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Home/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Home/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Home/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/BigCardLi/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/BigCardLi/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/BigCardLi/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/BigCardLi/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationAll/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationContent/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationShow/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationShow/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationShow/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/InformationShow/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/MiddleCardLi/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/MiddleCardLi/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/MiddleCardLi/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/MiddleCardLi/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/SmallCardLi/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/SmallCardLi/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/SmallCardLi/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/SmallCardLi/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/VideoLi/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/VideoLi/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/VideoLi/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/VideoLi/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Information/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckAccount/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckAccount/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckAccount/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckAccount/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckArticle/StyleChoose/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckArticle/StyleChoose/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckArticle/StyleChoose/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckArticle/StyleChoose/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckArticle/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckProject/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckProject/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckProject/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/CheckProject/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Admin/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/Preview/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/Preview/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/Preview/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/Preview/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Creation/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/Draft/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/Draft/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/Draft/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/Draft/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/ManageArticle/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/ManageProject/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Manage/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/Notification/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/Notification/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/Notification/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/Notification/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Notice/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_home/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_home/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_home/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_style/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_style/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/Personal_style/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/Personal_center/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Personal/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/ProjectAll/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/ProjectContent/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/Show/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/Show/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/Show/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/Show/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Project/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Team/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Team/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Team/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Central/Team/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/HomePage/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/HomePage/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/HomePage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/HomePage/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/LoginPage/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/LoginPage/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/LoginPage/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/LoginPage/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/actions/header_action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/actions/login_action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/actions/personal_action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/reducers/header_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/reducers/login_reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/ScrollToTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/limitAccess.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/scroll.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +238,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -84,7 +279,7 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node/index.js" working-dir="$PROJECT_DIR$/node">
       <method v="2" />
     </configuration>
-    <configuration name="login_data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/react-as/src/dataDetection/login_data.js" working-dir="$PROJECT_DIR$/react-as/src/dataDetection">
+    <configuration name="login_data.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web/src/dataDetection/login_data.js" working-dir="$PROJECT_DIR$/web/src/dataDetection">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -169,7 +364,7 @@
       <workItem from="1640150295033" duration="314000" />
       <workItem from="1640150612787" duration="580000" />
       <workItem from="1640151243789" duration="4878000" />
-      <workItem from="1640156863973" duration="914000" />
+      <workItem from="1640156863973" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="基本功能v3.0">
       <created>1640153963043</created>
@@ -206,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640157254412</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="基本功能v3.0">
+      <created>1640157868275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640157868275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,18 +464,18 @@
     </state>
     <state x="748" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1635514128936" />
     <state x="748" y="339" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1635843420354" />
-    <state x="237" y="25" key="DiffContextDialog" timestamp="1640153907701">
+    <state x="237" y="25" width="1536" height="892" key="DiffContextDialog" timestamp="1640158089678">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
-    <state x="237" y="25" key="DiffContextDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640153907701" />
+    <state x="237" y="25" width="1536" height="892" key="DiffContextDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640158089678" />
     <state x="554" y="365" key="EditFileWatcherDialog" timestamp="1632152027486">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
     <state x="554" y="365" key="EditFileWatcherDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1632152027486" />
-    <state x="1334" y="446" key="Github.CreateGistDialog" timestamp="1640150803042">
+    <state x="1334" y="446" key="Github.CreateGistDialog" timestamp="1640157839782">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
-    <state x="1334" y="446" key="Github.CreateGistDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640150803042" />
+    <state x="1334" y="446" key="Github.CreateGistDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640157839782" />
     <state x="925" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1640157400154">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
@@ -306,6 +508,10 @@
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
     <state x="1120" y="165" key="Vcs.Push.Dialog.v2/0.25.1920.1116@0.25.1920.1116" timestamp="1640156176114" />
+    <state x="847" y="261" key="VcsDiffUtil.ChangesDialog" timestamp="1640157993651">
+      <screen x="0" y="25" width="1920" height="1116" />
+    </state>
+    <state x="847" y="261" key="VcsDiffUtil.ChangesDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640157993651" />
     <state x="1359" y="272" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1640155943696">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
@@ -350,6 +556,10 @@
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
     <state x="1105" y="25" width="1086" height="1115" key="dock-window-9/0.25.1920.1116@0.25.1920.1116" timestamp="1635426491268" />
+    <state x="704" y="315" key="git4idea.merge.GitPullDialog" timestamp="1640157809481">
+      <screen x="0" y="25" width="1920" height="1116" />
+    </state>
+    <state x="704" y="315" key="git4idea.merge.GitPullDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1640157809481" />
     <state x="1453" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1640153931678">
       <screen x="0" y="25" width="1920" height="1116" />
     </state>
